@@ -63,3 +63,35 @@
     <td>The paper presents Vortex, a storage engine developed within Google BigQuery to support real-time and batch data analytics. Vortex operates as a stream-first system, capable of handling both types of workloads efficiently, addressing the challenges of managing petabyte-scale data ingestion and processing. It achieves sub-second data freshness and low-latency query performance. Vortex integrates with BigQuery's distributed query engine, Dremel, and leverages Google's Colossus file system for robust, disaster-resilient storage.</td>
   </tr>
 </table>
+
+---
+## Blogs
+
+<table>
+  <tr>
+    <th>Blog Title</th>
+    <th>Tags</th>
+    <th>Quick Summary</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.dremio.com/blog/getting-started-with-flink-sql-and-apache-iceberg/" target="_blank">Getting Started with Flink SQL and Apache Iceberg</a></td>
+    <td><code>Apache Iceberg</code>, <code>Flink</code></td>
+    <td>How to get started with Flink SQL and Apache Iceberg for real-time processing.</td>
+  </tr>
+  <tr>
+    <td><a href="https://dipankar-tnt.medium.com/apache-hudi-part-1-history-getting-started-95030b003759" target="_blank">Apache Hudi (Part 1): History, Getting Started</a></td>
+    <td><code>Apache Hudi</code></td>
+    <td>Discusses the motivations behind Apache Hudi (from its inception at `Uber`) and provides insights on the various ways to learn Hudi.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.dremio.com/blog/how-z-ordering-in-apache-iceberg-helps-improve-performance/" target="_blank">How Z-Ordering in Apache Iceberg Helps Improve Performance</a></td>
+    <td><code>Apache Iceberg</code>, <code>Optimization</code></td>
+    <td>Explains how Z-ordering optimizes query performance by clustering data across multiple dimensions, reducing the need to scan unnecessary files. Although the blog is centered around Apache Iceberg, the concepts applies to other formats as well.</td>
+  </tr>
+   <tr>
+    <td><a href="https://dipankar-tnt.medium.com/onetable-interoperability-for-apache-hudi-iceberg-delta-lake-bb8b27dd288d" target="_blank">What is Apache XTable — Interoperability for Apache Hudi, Iceberg & Delta Lake</a></td>
+    <td><code>Apache Iceberg</code>, <code>Apache Hudi</code>, <code>Delta Lake</code>, <code>interoperability</code></td>
+    <td>The blog discusses Apache XTable, a framework designed to enable seamless interoperability between Apache Hudi, Apache Iceberg, and Delta Lake, allowing users to manage data across these open table formats with a unified approach</td>
+  </tr>
+</table>
+
