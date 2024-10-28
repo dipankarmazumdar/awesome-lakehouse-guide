@@ -95,9 +95,24 @@
   </tr>
     </tr>
    <tr>
-    <td><a href="https://medium.com/apache-hudi-blogs/building-analytical-apps-on-the-lakehouse-using-apache-hudi-daft-streamlit-3224766fe58a" target="_blank">Building Analytical Apps on the Lakehouse using Apache Hudi, Daft & Streamlit</a></td>
+    <td><a href="https://medium.com/apache-hudi-blogs/building-analytical-apps-on-the-lakehouse-using-apache-hudi-daft-streamlit-3224766fe58a" target="_blank">Building Analytical Apps on the Lakehouse using Apache Hudi, Daft & Streamlit</a>   </td>
     <td><code>Apache Hudi</code>, <code>Daft</code>, <code>Streamlit</code></td>
     <td>Shows hands-on examples of building data applications (dashboards) directly on top of an open lakehouse platform, using Apache Hudi, Daft, and Streamlit to enable seamless data visualization and exploration</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.dremio.com/blog/streamlining-data-quality-in-apache-iceberg-with-write-audit-publish-branching/" target="_blank">Streamlining Data Quality in Apache Iceberg with write-audit-publish & branching</a></td>
+    <td><code>Apache Iceberg</code>, <code>Data Quality</code></td>
+    <td>Explains how Apache Iceberg's Write-Audit-Publish (WAP) pattern, especially with its branching feature, enables efficient data quality checks. This approach allows data to be staged, audited, and then published only if it meets quality standards, isolating experimental data from production while leveraging branch-specific snapshots.</td>
+  </tr>
+  <tr>
+    <td><a href="https://hudi.apache.org/blog/2024/07/11/what-is-a-data-lakehouse" target="_blank">What is a Data Lakehouse & How does it Work?</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Lakehouse</code></td>
+    <td>An introductory blog on the Lakehouse architecture. Explains how this architecture merges the scalability and cost benefits of data lakes with the reliability and ACID transactional support of data warehouses.</td>
+  </tr>
+   <tr>
+    <td><a href="https://www.dremio.com/blog/puffins-and-icebergs-additional-stats-for-apache-iceberg-tables/" target="_blank">Puffins and Icebergs: Additional Stats for Apache Iceberg Tables</a></td>
+    <td><code>Apache Iceberg</code>, <code>stochastic streaming</code></td>
+    <td>Introduces the Puffin format in Apache Iceberg, designed to enhance data query efficiency by storing additional statistics and secondary indexes. Puffin allows metadata enrichment for better query planning, with one use case being the ability to store approximate distinct counts (NDV) using data sketches.</td>
   </tr>
 </table>
 
