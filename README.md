@@ -1,6 +1,9 @@
 # awesome-lakehouse-guide
 ----------------------------------------
 
+<img src="lkh_res.png" alt="lakehouse architecture" width="800" height="800">
+
+
 ## Research Papers - Data Engineering (Lakehouse, Distributed Systems, Open Source)
 
 <table>
