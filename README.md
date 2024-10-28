@@ -93,5 +93,11 @@
     <td><code>Apache Iceberg</code>, <code>Apache Hudi</code>, <code>Delta Lake</code>, <code>interoperability</code></td>
     <td>The blog discusses Apache XTable, a framework designed to enable seamless interoperability between Apache Hudi, Apache Iceberg, and Delta Lake, allowing users to manage data across these open table formats with a unified approach</td>
   </tr>
+    </tr>
+   <tr>
+    <td><a href="https://medium.com/apache-hudi-blogs/building-analytical-apps-on-the-lakehouse-using-apache-hudi-daft-streamlit-3224766fe58a" target="_blank">Building Analytical Apps on the Lakehouse using Apache Hudi, Daft & Streamlit</a></td>
+    <td><code>Apache Hudi</code>, <code>Daft</code>, <code>Streamlit</code></td>
+    <td>Shows hands-on examples of building data applications (dashboards) directly on top of an open lakehouse platform, using Apache Hudi, Daft, and Streamlit to enable seamless data visualization and exploration</td>
+  </tr>
 </table>
 
