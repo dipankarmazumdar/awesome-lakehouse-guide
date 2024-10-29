@@ -131,3 +131,12 @@
   </tr>
 </table>
 
+---
+## Code/Examples
+
+**Apache Hudi**
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dipankarmazumdar/HudiCodeExamples)
+
+**Apache Iceberg**
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dipankarmazumdar/Iceberg_Usecases)
+
