@@ -90,7 +90,7 @@
   </tr>
    <tr>
     <td><a href="https://dipankar-tnt.medium.com/onetable-interoperability-for-apache-hudi-iceberg-delta-lake-bb8b27dd288d" target="_blank">What is Apache XTable — Interoperability for Apache Hudi, Iceberg & Delta Lake</a></td>
-    <td><code>Apache Iceberg</code>, <code>Apache Hudi</code>, <code>Delta Lake</code>, <code>interoperability</code></td>
+    <td><code>Apache Iceberg</code>, <code>Apache Hudi</code>, <code>Delta Lake</code>, <code>Interoperability</code></td>
     <td>The blog discusses Apache XTable, a framework designed to enable seamless interoperability between Apache Hudi, Apache Iceberg, and Delta Lake, allowing users to manage data across these open table formats with a unified approach</td>
   </tr>
     </tr>
@@ -111,8 +111,23 @@
   </tr>
    <tr>
     <td><a href="https://www.dremio.com/blog/puffins-and-icebergs-additional-stats-for-apache-iceberg-tables/" target="_blank">Puffins and Icebergs: Additional Stats for Apache Iceberg Tables</a></td>
-    <td><code>Apache Iceberg</code>, <code>stochastic streaming</code></td>
+    <td><code>Apache Iceberg</code>, <code>Stochastic streaming</code></td>
     <td>Introduces the Puffin format in Apache Iceberg, designed to enhance data query efficiency by storing additional statistics and secondary indexes. Puffin allows metadata enrichment for better query planning, with one use case being the ability to store approximate distinct counts (NDV) using data sketches.</td>
+  </tr>
+   <tr>
+    <td><a href="https://dipankar-tnt.medium.com/using-apache-hudi-iceberg-tables-in-databricks-with-apache-xtable-253f411be637" target="_blank">Using Apache Hudi & Iceberg tables in Databricks with Apache XTable</a></td>
+    <td><code>Apache Iceberg</code>, <code>Apache Hudi</code>, <code>Databricks</code></td>
+    <td>This blog post provides a practical example of how to use Apache XTable to achieve interoperability between Apache Hudi, Iceberg, and Delta Lake formats to build workflows in Databricks.</td>
+  </tr>
+     <tr>
+    <td><a href="https://www.onehouse.ai/blog/open-table-formats-and-the-open-data-lakehouse-in-perspective" target="_blank">Open Table Formats and the Open Data Lakehouse, In Perspective</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Lakehouse</code></td>
+    <td>The blog argues that while open table formats are intended to make data architectures more open and interoperable, organizations often remain constrained by proprietary tools and table services for essential functions, preventing a fully open data architecture.</td>
+  </tr>
+   <tr>
+    <td><a href="https://medium.com/@dipankar-tnt/hudi-rs-with-duckdb-polars-daft-datafusion-single-node-lakehouse-347ee1a45371" target="_blank">Hudi-rs with DuckDB, Polars, Daft, DataFusion — Single-node Lakehouse</a></td>
+    <td><code>Apache Hudi</code>, <code>DuckDB</code>, <code>Apache DataFusion</code>, <code>Daft</code></td>
+    <td> The blog demonstrates how to use Apache Hudi with Rust-based libraries like DuckDB, Polars, Daft, and DataFusion to build a single-node lakehouse without relying on JVM or Spark dependencies, enabling efficient data processing within a Python ecosystem.</td>
   </tr>
 </table>
 
