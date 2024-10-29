@@ -129,6 +129,23 @@
     <td><code>Apache Hudi</code>, <code>DuckDB</code>, <code>Apache DataFusion</code>, <code>Daft</code></td>
     <td> The blog demonstrates how to use Apache Hudi with Rust-based libraries like DuckDB, Polars, Daft, and DataFusion to build a single-node lakehouse without relying on JVM or Spark dependencies, enabling efficient data processing within a Python ecosystem.</td>
   </tr>
+  <tr>
+    <td><a href="Ultimate Directory of Apache Iceberg Resources" target="_blank">Ultimate Directory of Apache Iceberg Resources</a></td>
+    <td><code>Apache Iceberg</code></td>
+    <td> This blog is directory of resources for learning about the Apache Iceberg Format</td>
+  </tr>
+  <tr>
+    <td><a href="https://amdatalakehouse.substack.com/p/virtualization-lakehouse-mesh-data" target="_blank">Virtualization + Lakehouse + Mesh = Data At Scale</a></td>
+    <td><code>Data Lakehouse</code>, <code>Virtualization</code>, <code>Data Mesh</code></td>
+    <td> This article explains why virtualization, lakehouse and mesh are complimentary trends.</td>
+  </tr>
+  <tr>
+    <td><a href="https://amdatalakehouse.substack.com/p/hands-on-with-apache-iceberg-on-your" target="_blank">Hands-on with Apache Iceberg on Your Laptop</a></td>
+    <td><code>Apache Iceberg</code></td>
+    <td> This blog is an end to end walkthrough on your laptop of ingesting data from Spark, running analytics with Dremio and creating a visualizations in a notebook with Polars & Seaborn using the Apache Iceberg table format.</td>
+  </tr>
+  
+  
 </table>
 
 ---
@@ -153,6 +170,10 @@
   </tr>
   <tr>
     <td><a href="https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/CDC_iceberg.ipynb" target="_blank">Implementing CDC use cases in Apache Iceberg.</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/developer-advocacy-dremio/dremio-compose" target="_blank">Lakehouse on your Laptop Docker Compose Examples</a></td>
     <td><code>Apache Iceberg</code></td>
   </tr>
 </table>
