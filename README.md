@@ -134,9 +134,26 @@
 ---
 ## Code/Examples
 
-**Apache Hudi**
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dipankarmazumdar/HudiCodeExamples)
-
-**Apache Iceberg**
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dipankarmazumdar/Iceberg_Usecases)
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Tags</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/HudiCodeExamples/blob/main/Hudi_S3_SparkSQL.ipynb" target="_blank">Creating Hudi Tables on Amazon S3 using Spark SQL.</a></td>
+    <td><code>Apache Hudi</code></td>
+  </tr>
+ <tr>
+    <td><a href="https://github.com/dipankarmazumdar/HudiCodeExamples/blob/main/Hudi_Clustering_Spark_SQL.ipynb" target="_blank">Running Inline Clustering in Apache Hudi.</a></td>
+    <td><code>Apache Hudi</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/Spark_iceberg.ipynb" target="_blank">Creating Iceberg Tables on Amazon S3 using Spark.</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/CDC_iceberg.ipynb" target="_blank">Implementing CDC use cases in Apache Iceberg.</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+</table>
 
