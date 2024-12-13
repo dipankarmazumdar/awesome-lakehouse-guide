@@ -74,6 +74,11 @@
     <th>Quick Summary</th>
   </tr>
   <tr>
+    <td><a href="https://www.onehouse.ai/blog/how-to-optimize-performance-for-your-open-data-lakehouse" target="_blank">How to Optimize Performance for Your Open Data Lakehouse</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Optimization</code></td>
+    <td>This blog goes over the various storage & compute optimization techniques for lakehouse table formats.</td>
+  </tr>
+  <tr>
     <td><a href="https://www.dremio.com/blog/getting-started-with-flink-sql-and-apache-iceberg/" target="_blank">Getting Started with Flink SQL and Apache Iceberg</a></td>
     <td><code>Apache Iceberg</code>, <code>Flink</code></td>
     <td>How to get started with Flink SQL and Apache Iceberg for real-time processing.</td>
