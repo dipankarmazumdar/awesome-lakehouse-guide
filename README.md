@@ -62,6 +62,11 @@
     <td>Storage</td>
     <td>The paper presents Vortex, a storage engine developed within Google BigQuery to support real-time and batch data analytics. Vortex operates as a stream-first system, capable of handling both types of workloads efficiently, addressing the challenges of managing petabyte-scale data ingestion and processing. It achieves sub-second data freshness and low-latency query performance. Vortex integrates with BigQuery's distributed query engine, Dremel, and leverages Google's Colossus file system for robust, disaster-resilient storage.</td>
   </tr>
+   <tr>
+    <td><a href="https://vldb.org/pvldb/vol17/p4159-okolnychyi.pdf" target="_blank">Petabyte-Scale Row-Level Operations in Data Lakehouses</a></td>
+    <td>Storage</td>
+    <td>The paper introduces efficient row-level operations in data lakehouses using Apache Iceberg and Spark. It optimizes dense and sparse modifications with techniques like file materialization, delete markers, partitioned joins, and adaptive writes, achieving up to 10x performance improvements.</td>
+  </tr>
 </table>
 
 ---
