@@ -73,6 +73,11 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+   <tr>
+    <td><a href="https://www.onehouse.ai/blog/open-table-formats-and-the-open-data-lakehouse-in-perspective" target="_blank">Open Table Formats and the Open Data Lakehouse, In Perspective</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
+    <td>Explores the evolution of data architecture over the years, breaks down the lakehouse architecture into its components, and performs comparative analysis to distinguish between what exactly qualifies as open and what does not.</td>
+  </tr>
   <tr>
     <td><a href="https://www.onehouse.ai/blog/how-to-optimize-performance-for-your-open-data-lakehouse" target="_blank">How to Optimize Performance for Your Open Data Lakehouse</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Optimization</code></td>
@@ -148,6 +153,11 @@
     <td><a href="https://amdatalakehouse.substack.com/p/hands-on-with-apache-iceberg-on-your" target="_blank">Hands-on with Apache Iceberg on Your Laptop</a></td>
     <td><code>Apache Iceberg</code></td>
     <td> This blog is an end to end walkthrough on your laptop of ingesting data from Spark, running analytics with Dremio and creating a visualizations in a notebook with Polars & Seaborn using the Apache Iceberg table format.</td>
+  </tr>
+    <tr>
+    <td><a href="https://www.onehouse.ai/blog/comprehensive-data-catalog-comparison" target="_blank">Comprehensive Data Catalog Comparison</a></td>
+    <td><code>Unity</code>, <code>Polaris</code>, <code>DataHub</code></td>
+    <td>A comparison blog for different data catalogs in the lakehouse space.</td>
   </tr>
   
   
