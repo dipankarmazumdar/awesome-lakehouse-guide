@@ -159,13 +159,17 @@
     <td><code>Apache Iceberg</code></td>
     <td> This blog is an end to end walkthrough on your laptop of ingesting data from Spark, running analytics with Dremio and creating a visualizations in a notebook with Polars & Seaborn using the Apache Iceberg table format.</td>
   </tr>
-    <tr>
+  <tr>
     <td><a href="https://www.onehouse.ai/blog/comprehensive-data-catalog-comparison" target="_blank">Comprehensive Data Catalog Comparison</a></td>
     <td><code>Unity</code>, <code>Polaris</code>, <code>DataHub</code></td>
     <td>A comparison blog for different data catalogs in the lakehouse space.</td>
   </tr>
-  
-  
+  <tr>
+    <td><a href="https://jack-vanlightly.com/blog/2024/9/19/table-format-comparisons-change-queries-and-cdc" target="_blank">Table format comparisons - Change queries and CDC</a></td>
+    <td><code>Apache Icebergy</code>, <code>Delta Lake</code>, <code>Apache Hudi</code>, <code>Apache Paimon</code></td>
+    <td>How changes made to an Iceberg/Delta/Hudi/Paimon table can be emitted as a stream of changes. In the context of the table formats, is the capability to incrementally consume changes by performing periodic change queries.</td>
+  </tr>
+
 </table>
 
 ---
