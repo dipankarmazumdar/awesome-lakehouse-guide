@@ -206,7 +206,7 @@
     <td><code>Apache Iceberg</code></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/guptaakashdeep/WAP-implementation/tree/main" target="_blank">Implementiong Write-Audit-Publish using Iceberg Branches and WAP ID using Spark on AWS</a></td>
+    <td><a href="https://github.com/guptaakashdeep/WAP-implementation/tree/main" target="_blank">Implementing Write-Audit-Publish DQ Pattern using Iceberg Branches and WAP ID with Spark on AWS</a></td>
     <td><code>Apache Iceberg</code></td>
   </tr>
 </table>
