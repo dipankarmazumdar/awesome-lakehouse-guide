@@ -166,8 +166,13 @@
   </tr>
   <tr>
     <td><a href="https://jack-vanlightly.com/blog/2024/9/19/table-format-comparisons-change-queries-and-cdc" target="_blank">Table format comparisons - Change queries and CDC</a></td>
-    <td><code>Apache Icebergy</code>, <code>Delta Lake</code>, <code>Apache Hudi</code>, <code>Apache Paimon</code></td>
+    <td><code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Apache Hudi</code>, <code>Apache Paimon</code></td>
     <td>How changes made to an Iceberg/Delta/Hudi/Paimon table can be emitted as a stream of changes. In the context of the table formats, is the capability to incrementally consume changes by performing periodic change queries.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.guptaakashdeep.com/copy-on-write-or-merge-on-read-apache-iceberg-2/" target="_blank">Copy-on-Write or Merge-on-Read? -- What, When and How?</a></td>
+    <td><code>Apache Iceberg</code></td>
+    <td>This blog explains what are Copy-on-Write and Merge-on-Read using Apache Iceberg Table Format, how these can help in improving the Row-level updates, what are Positional and Equality Delete files, and when to use which approach along with in detailed hands on code.</td>
   </tr>
 
 </table>
@@ -198,6 +203,10 @@
   </tr>
   <tr>
     <td><a href="https://github.com/developer-advocacy-dremio/dremio-compose" target="_blank">Lakehouse on your Laptop Docker Compose Examples</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/guptaakashdeep/WAP-implementation/tree/main" target="_blank">Implementing Write-Audit-Publish DQ Pattern using Iceberg Branches and WAP ID with Spark on AWS</a></td>
     <td><code>Apache Iceberg</code></td>
   </tr>
 </table>
