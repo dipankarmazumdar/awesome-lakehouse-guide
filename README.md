@@ -67,6 +67,16 @@
     <td>Storage</td>
     <td>The paper introduces efficient row-level operations in data lakehouses using Apache Iceberg and Spark. It optimizes dense and sparse modifications with techniques like file materialization, delete markers, partitioned joins, and adaptive writes, achieving up to 10x performance improvements.</td>
   </tr>
+  <tr>
+    <td><a href="https://people.eecs.berkeley.edu/~matei/papers/2022/sigmod_photon.pdf" target="_blank">Photon: A Fast Query Engine for Lakehouse Systems</a></td>
+    <td>Compute Engine</td>
+    <td>The papers discusses the Databricks Photon: A Vectorized Query Execution Engine for Lakehouse Environment. It also discusses the design choices made in Photon (e.g., vectorization vs. code generation) and describe its integration with existing SQL and Apache Spark runtimes, its task model, and its memory manager. </td>
+  </tr>
+  <tr>
+    <td><a href="https://dl.acm.org/doi/pdf/10.1007/s00778-002-0074-9" target="_blank">Data page layouts for relational databases on deep memory hierarchies</a></td>
+    <td>Storage</td>
+    <td>The paper introduce and evaluate PAX (Partition Attributes Across) Storage Model. PAX is the foundation how Open Stoage Formats like Parquet, ORC stores data internally. It dicusses the origin and need of PAX and how it combines the best of both the Row Storage Model (NSM: N-Ary Storage Model) and Columnar Storage Model (DSM: Decomposition Storage Model). It also explains how PAX results in higher cache hit rates and better memory bandwith utilization.</td>
+  </tr>
 </table>
 
 ---
