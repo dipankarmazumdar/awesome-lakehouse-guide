@@ -88,6 +88,11 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+  <tr>
+    <td><a href="https://www.onehouse.ai/blog/how-to-optimize-performance-for-your-open-data-lakehouse" target="_blank">How to Optimize Performance for Your Open Data Lakehouse</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Optimization</code></td>
+    <td>This blog goes over the five (5) optimization techniques applicable to lakehouse table formats.</td>
+  </tr>
    <tr>
     <td><a href="https://www.onehouse.ai/blog/open-table-formats-and-the-open-data-lakehouse-in-perspective" target="_blank">Open Table Formats and the Open Data Lakehouse, In Perspective</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
