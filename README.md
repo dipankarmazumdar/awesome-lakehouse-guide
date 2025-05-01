@@ -88,6 +88,21 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+  <tr>
+    <td><a href="https://hudi.apache.org/blog/2025/01/28/concurrency-control/" target="_blank">Concurrency Control in Open Data Lakehouse</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
+    <td>This blog goes into the fundamentals of concurrency control, explores why it is essential for lakehouses, and examines how open table formats such as Apache Hudi enable strong concurrency control mechanisms to uphold the ACID properties.</td>
+  </tr>
+   <tr>
+    <td><a href="https://hudi.apache.org/blog/2025/03/31/amazon-hudi/" target="_blank">Powering Amazon Unit Economics at Scale Using Apache Hudi</a></td>
+    <td><code>Apache Hudi</code>, <code>Amazon</code>, <code>Use Case</code></td>
+    <td>Amazon’s Profit Intelligence team built Nexus, a configuration-driven platform powered by Apache Hudi, to scale unit economics across thousands of retail use cases. This blog dives into their data lakehouse journey.</td>
+  </tr>
+   <tr>
+    <td><a href="https://hudi.apache.org/blog/2025/04/02/secondary-index/" target="_blank">Introducing Secondary Index in Apache Hudi Lakehouse Platform</a></td>
+    <td><code>Apache Hudi</code>, <code>Index</code>, <code>Performance</code></td>
+    <td>The blog introduces the new secondary index feature in Apache Hudi and how it enhances Hudi's capabilities as a high-performance lakehouse platform.</td>
+  </tr>
     <tr>
     <td><a href="https://www.onehouse.ai/blog/towards-open-data---part-1-cloud-warehouses-now-love-open-formats" target="_blank">Towards Open Data - Part 1: Cloud Warehouses Now Love Open Formats</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Snowflake</code>, <code>Redshift</code></td>
