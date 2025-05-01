@@ -88,6 +88,26 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+    <tr>
+    <td><a href="https://www.onehouse.ai/blog/towards-open-data---part-1-cloud-warehouses-now-love-open-formats" target="_blank">Towards Open Data - Part 1: Cloud Warehouses Now Love Open Formats</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Snowflake</code>, <code>Redshift</code></td>
+    <td>Explores how cloud data warehouses have started supporting open table formats but argues that current support remains limited, inconsistent, often falling short of true openness in terms of interoperability and feature parity.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.onehouse.ai/blog/data-deduplication-strategies-in-an-open-lakehouse-architecture" target="_blank">Data Deduplication Strategies in an Open Lakehouse Architecture</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
+    <td>Understand how duplication occurs across ingestion, storage merging, and table management in lakehouse architectures, and explore the native deduplication strategies offered by open table formats like Apache Hudi.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.onehouse.ai/blog/acid-transactions-in-an-open-data-lakehouse" target="_blank">ACID Transactions in an Open Data Lakehouse</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
+    <td>This blog explains the fundamentals of ACID transactions and how each open table format implements them for lakehouse.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.onehouse.ai/blog/what-is-clustering-in-an-open-data-lakehouse" target="_blank">What is Clustering in an Open Data Lakehouse?</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Optimization</code></td>
+    <td>Explores the different types of clustering algorithms in the context of lakehouse formats.</td>
+  </tr>
   <tr>
     <td><a href="https://www.onehouse.ai/blog/how-to-optimize-performance-for-your-open-data-lakehouse" target="_blank">How to Optimize Performance for Your Open Data Lakehouse</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Optimization</code></td>
