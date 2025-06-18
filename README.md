@@ -82,6 +82,11 @@
     <td>Storage</td>
     <td>This paper conducts a modern benchmark of the two most popular open-source columnar formats—Parquet and ORC—evaluating their performance and storage efficiency on real-world and ML workloads. Their findings include the benefits of default dictionary encoding, prioritizing decoding speed over maximum compression, and identifying inefficiencies in current designs when using GPUs or handling common machine learning tasks</td>
   </tr>
+  <tr>
+    <td><a href="https://www.vldb.org/pvldb/vol17/p148-zeng.pdf" target="_blank">DuckDB: an Embeddable Analytical Database</a></td>
+    <td>Storage</td>
+    <td>This paper introduces DuckDB, an embeddable, columnar analytical SQL database engine—think “SQLite for OLAP”—designed to run in-process, offering high-performance execution of complex analytical queries without a separate server.</td>
+  </tr>
 </table>
 
 ---
