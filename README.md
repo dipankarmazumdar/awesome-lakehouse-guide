@@ -98,6 +98,16 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+   <tr>
+    <td><a href="https://www.onehouse.ai/blog/towards-open-data---part-1-cloud-warehouses-now-love-open-formats" target="_blank">Towards Open Data - Part 1: Cloud Warehouses Now Love Open Formats</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Snowflake</code>, <code>Redshift</code>, <code>BigQuery</code></td>
+    <td>This blog highlights that cloud data warehouses like Snowflake, Redshift, and BigQuery have recently begun supporting open table formats (Iceberg, Hudi, Delta) via external tables and managed offerings—but current implementations remain far from fully “open.”.</td>
+  </tr>
+   <tr>
+    <td><a href="https://www.onehouse.ai/blog/from-the-trenches-managing-apache-iceberg-metadata-for-near-real-time-workloads" target="_blank">From the trenches: Managing Apache Iceberg metadata for near-real-time workloads</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Apache XTable</code></td>
+    <td>This blog goes into real-world challenges of using Apache Iceberg for near-real-time workloads - specifically how frequent writes lead to metadata bloat, slow snapshot expiration, and costly orphan-file cleanup—then outlines production-grade solutions like custom cleanup strategies and timeline-powered maintenance to keep SLAs intact.</td>
+  </tr>
   <tr>
     <td><a href="https://hudi.apache.org/blog/2025/01/28/concurrency-control/" target="_blank">Concurrency Control in Open Data Lakehouse</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code></td>
