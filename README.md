@@ -77,6 +77,11 @@
     <td>Storage</td>
     <td>The paper introduce and evaluate PAX (Partition Attributes Across) Storage Model. PAX is the foundation how Open Stoage Formats like Parquet, ORC stores data internally. It dicusses the origin and need of PAX and how it combines the best of both the Row Storage Model (NSM: N-Ary Storage Model) and Columnar Storage Model (DSM: Decomposition Storage Model). It also explains how PAX results in higher cache hit rates and better memory bandwith utilization.</td>
   </tr>
+   <tr>
+    <td><a href="https://www.vldb.org/pvldb/vol17/p148-zeng.pdf" target="_blank">An Empirical Evaluation of Columnar Storage Formats</a></td>
+    <td>Storage</td>
+    <td>This paper conducts a modern benchmark of the two most popular open-source columnar formats—Parquet and ORC—evaluating their performance and storage efficiency on real-world and ML workloads. Their findings include the benefits of default dictionary encoding, prioritizing decoding speed over maximum compression, and identifying inefficiencies in current designs when using GPUs or handling common machine learning tasks</td>
+  </tr>
 </table>
 
 ---
