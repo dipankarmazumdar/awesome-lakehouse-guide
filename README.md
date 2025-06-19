@@ -255,5 +255,33 @@
 
 - 🔗 [What is Apache Arrow? Origins + Design](| https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
 - 🔗 [What is Vectorized Processing?](| https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
-- 
+
 <!-- LINKEDIN_POSTS_END -->
+---
+
+## Code/Notebooks
+
+<table>Add commentMore actions
+  <tr>
+    <th>Description</th>
+    <th>Tags</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/HudiCodeExamples/blob/main/Hudi_S3_SparkSQL.ipynb" target="_blank">Creating Hudi Tables on Amazon S3 using Spark SQL.</a></td>
+    <td><code>Apache Hudi</code></td>
+  </tr>
+ <tr>
+    <td><a href="https://github.com/dipankarmazumdar/HudiCodeExamples/blob/main/Hudi_Clustering_Spark_SQL.ipynb" target="_blank">Running Inline Clustering in Apache Hudi.</a></td>
+    <td><code>Apache Hudi</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/Spark_iceberg.ipynb" target="_blank">Creating Iceberg Tables on Amazon S3 using Spark.</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/CDC_iceberg.ipynb" target="_blank">Implementing CDC use cases in Apache Iceberg.</a></td>
+    <td><code>Apache Iceberg</code></td>
+  </tr>
+  <tr>
+  
+  ---
