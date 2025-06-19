@@ -248,6 +248,13 @@
 </table>
 
 ---
+
+## 📣 Latest LinkedIn Posts
+
+<!-- LINKEDIN_POSTS_START -->
+<!-- LINKEDIN_POSTS_END -->
+---
+
 ## Code/Notebooks
 
 <table>
