@@ -255,10 +255,5 @@
 
 - 🔗 [What is Apache Arrow? Origins + Design](| https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
 - 🔗 [What is Vectorized Processing?](| https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
-
-- 🔗 [View Post](What is Apache Arrow? Origins + Design || https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
-- 🔗 [View Post](What is 'Vectorized Processing'? || https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
-
-- 🔗 [View Post](https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
-- 🔗 [View Post](https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
+- 
 <!-- LINKEDIN_POSTS_END -->
