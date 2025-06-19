@@ -1,28 +1,17 @@
-What is 'Vectorized Processing'?
+# LinkedIn Posts Archive
 
+A collection of my LinkedIn timeline posts related to open table formats, data engineering, and lakehouse architecture.
 
+---
 
-MonetDB/X100 was awarded the CIDR Test of Time Award for its inception of vectorized execution.
+### 📅 June 17, 2025  
+**📝 Title**: What is 'Vectorized Processing'?  
+🔗 [View Post](https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAe2ProBHdAyUIZhBrUpAkbJdP0HvCi1uAU)  
+_The post explores the paper `MonetDB/X100` that introduces the concept of computing by vectors._
 
-Modern CPUs offer tremendous parallelism and instruction throughput, but traditional database engines struggle to use this power efficiently. 
+---
 
-Most relational database systems still rely on the 'Volcano-style' iterator model, which processes one tuple at a time.
-
-This limits opportunities for compiler optimizations like loop pipelining and leading to poor CPU utilization.
-
-To tackle these problems, the paper introduces "MonetDB/X100", a new query engine based on vectorized query execution model!
-
-The idea is simple:
-✅ Operate on batches of small columnar blocks called 'vectors', instead of processing each row individually.
-
-✅ This approach reduces CPU instruction overhead and cache misses, resulting in improved query processing performance.
-
-X100 achieves dramatic performance improvements (up to 100x faster than traditional engines) by balancing CPU efficiency and memory bandwidth usage.
-
-It performs close to hand-optimized C code and outperforms commercial and academic systems on TPC-H queries.
-
-Note that this paper was the inspiration for DuckDB’s vectorized execution engine.
-
-Today this model is used by most of the cloud data warehouses/query engines such as Snowflake, Databricks, Google BigQuery to improve the performance of complex analytical queries.
-
-Paper link: https://www.cidrdb.org/cidr2005/papers/P19.pdf
+### 📅 June 13, 2025  
+**📝 Title**: What is Apache Arrow? What are its Origins?
+🔗 [View Post](https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAe2ProBHdAyUIZhBrUpAkbJdP0HvCi1uAU)  
+🧠 _Introduction to Apache Arrow - how it originated, design goals, applications._
