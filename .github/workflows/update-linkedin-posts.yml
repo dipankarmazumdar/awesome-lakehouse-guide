@@ -14,11 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate LinkedIn snippet from TXT file
+      - name: Generate LinkedIn snippet with titles
         run: |
           echo "" > linkedin-snippet.md
-          tac linkedin-posts.txt | while read -r url; do
-            echo "- 🔗 [View Post](${url})" >> linkedin-snippet.md
+          tac linkedin-posts.txt | while IFS='||' read -r title url; do
+            title=$(echo "$title" | xargs)
+            url=$(echo "$url" | xargs)
+            echo "- 🔗 [${title}](${url})" >> linkedin-snippet.md
           done
 
       - name: Inject LinkedIn posts into README
