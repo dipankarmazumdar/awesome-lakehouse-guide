@@ -11,26 +11,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build LinkedIn posts section
+      - name: Generate LinkedIn snippet from TXT file
         run: |
           echo "" > linkedin-snippet.md
           tac linkedin-posts.txt | while read -r url; do
             echo "- 🔗 [View Post](${url})" >> linkedin-snippet.md
           done
 
-      - name: Inject section into README
+      - name: Inject LinkedIn posts into README
         run: |
-          awk '/<!-- LINKEDIN_POSTS_START -->/{print; system("cat linkedin-snippet.md"); next} /<!-- LINKEDIN_POSTS_END -->/{found=1} !found' README.md > README_tmp.md
-          echo "<!-- LINKEDIN_POSTS_END -->" >> README_tmp.md
+          awk '/<!-- LINKEDIN_POSTS_START -->/{print; system("cat linkedin-snippet.md"); next} /<!-- LINKEDIN_POSTS_END -->/{found=1; next} !found' README.md > README_tmp.md
+          echo '<!-- LINKEDIN_POSTS_END -->' >> README_tmp.md
           mv README_tmp.md README.md
 
-      - name: Commit changes
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Auto-update LinkedIn posts in README"
-          git push
+          git commit -m "Auto-update LinkedIn posts in README" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
