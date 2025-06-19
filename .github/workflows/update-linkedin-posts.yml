@@ -1,0 +1,36 @@
+name: Update LinkedIn Posts in README
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'linkedin-posts.txt'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Build LinkedIn posts section
+        run: |
+          echo "" > linkedin-snippet.md
+          tac linkedin-posts.txt | while read -r url; do
+            echo "- 🔗 [View Post](${url})" >> linkedin-snippet.md
+          done
+
+      - name: Inject section into README
+        run: |
+          awk '/<!-- LINKEDIN_POSTS_START -->/{print; system("cat linkedin-snippet.md"); next} /<!-- LINKEDIN_POSTS_END -->/{found=1} !found' README.md > README_tmp.md
+          echo "<!-- LINKEDIN_POSTS_END -->" >> README_tmp.md
+          mv README_tmp.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-update LinkedIn posts in README"
+          git push
