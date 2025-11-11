@@ -92,6 +92,12 @@
     <td>Storage</td>
     <td>Ursa introduces a leaderless, Kafka-compatible streaming engine that writes data directly into open tables like Apache Iceberg, Delta Lake on object storage, removing the need for connectors or staging systems.</td>
   </tr>
+   <tr>
+    <td><a href="https://www.vldb.org/pvldb/vol18/p4846-mei.pdf" target="_blank">Disaggregated State Management in Flink 2.0</a></td>
+    <td>Compute</td>
+    <td>Instead of binding compute tightly to local state, Flink 2.0 pushes primary state storage to distributed file systems (HDFS/S3) and uses local disk only as cache. That unlocks elastic scaling, lighter checkpoints, and much faster recovery.
+</td>
+  </tr>
 </table>
 
 ---
