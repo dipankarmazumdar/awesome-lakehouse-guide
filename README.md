@@ -109,6 +109,11 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+    <tr>
+    <td><a href="https://dipankar-tnt.medium.com/apache-parquet-vs-newer-file-formats-btrblocks-fastlanes-lance-vortex-cdf02130182c" target="_blank">Apache Parquet vs. Newer File Formats (BtrBlocks, FastLanes, Lance, Vortex)</a></td>
+    <td><code>Apache Parquet</code>,<code>Lance</code></td>
+    <td>The blog compares Apache Parquet with newer file formats like Lance, FastLanes, BtrBlocks, and Vortex, highlighting how these modern formats address Parquet’s performance and access limitations in AI, ML, and vector-driven workloads.</td>
+  </tr>
    <tr>
     <td><a href="https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac" target="_blank">What is Apache Arrow Flight, Flight SQL & ADBC?</a></td>
     <td><code>Apache Arrow</code></td>
