@@ -87,6 +87,11 @@
     <td>Storage</td>
     <td>This paper introduces DuckDB, an embeddable, columnar analytical SQL database engine—think “SQLite for OLAP”—designed to run in-process, offering high-performance execution of complex analytical queries without a separate server.</td>
   </tr>
+    <tr>
+    <td><a href="https://www.vldb.org/pvldb/vol18/p5184-guo.pdf" target="_blank">Ursa: A Lakehouse-Native Data Streaming Engine for Kafka</a></td>
+    <td>Storage</td>
+    <td>Ursa introduces a leaderless, Kafka-compatible streaming engine that writes data directly into open tables like Apache Iceberg, Delta Lake on object storage, removing the need for connectors or staging systems.</td>
+  </tr>
 </table>
 
 ---
