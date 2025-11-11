@@ -249,16 +249,6 @@
 
 ---
 
-## 📣 Latest LinkedIn Posts
-
-<!-- LINKEDIN_POSTS_START -->
-
-- 🔗 [What is Apache Arrow? Origins + Design](| https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
-- 🔗 [What is Vectorized Processing?](| https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
-
-<!-- LINKEDIN_POSTS_END -->
----
-
 ## Code/Notebooks
 
 <table>Add commentMore actions
