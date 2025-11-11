@@ -111,7 +111,7 @@
   </tr>
    <tr>
     <td><a href="https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac" target="_blank">What is Apache Arrow Flight, Flight SQL & ADBC?</a></td>
-    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Snowflake</code>, <code>Redshift</code>, <code>BigQuery</code></td>
+    <td><code>Apache Arrow</code></td>
     <td>The blog explains how Apache Arrow Flight enables high-performance columnar data transport, Arrow Flight SQL brings SQL access to that protocol, and Arrow Database Connectivity (ADBC) offers a unified API for Arrow-native database interactions, collectively reducing inefficiencies of legacy row-based protocols</td>
   </tr>
    <tr>
