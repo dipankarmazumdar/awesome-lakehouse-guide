@@ -110,6 +110,11 @@
     <th>Quick Summary</th>
   </tr>
    <tr>
+    <td><a href="https://dipankar-tnt.medium.com/what-is-apache-arrow-flight-flight-sql-adbc-a076511122ac" target="_blank">What is Apache Arrow Flight, Flight SQL & ADBC?</a></td>
+    <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Snowflake</code>, <code>Redshift</code>, <code>BigQuery</code></td>
+    <td>The blog explains how Apache Arrow Flight enables high-performance columnar data transport, Arrow Flight SQL brings SQL access to that protocol, and Arrow Database Connectivity (ADBC) offers a unified API for Arrow-native database interactions, collectively reducing inefficiencies of legacy row-based protocols</td>
+  </tr>
+   <tr>
     <td><a href="https://www.onehouse.ai/blog/towards-open-data---part-1-cloud-warehouses-now-love-open-formats" target="_blank">Towards Open Data - Part 1: Cloud Warehouses Now Love Open Formats</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Snowflake</code>, <code>Redshift</code>, <code>BigQuery</code></td>
     <td>This blog highlights that cloud data warehouses like Snowflake, Redshift, and BigQuery have recently begun supporting open table formats (Iceberg, Hudi, Delta) via external tables and managed offerings—but current implementations remain far from fully “open.”.</td>
