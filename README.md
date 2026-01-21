@@ -109,6 +109,11 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+  <tr>
+    <td><a href="https://www.cloudera.com/blog/business/the-future-delivered-today-the-ai-powered-data-lakehouse.html" target="_blank">The AI-Powered Data Lakehouse</a></td>
+    <td><code>Apache Iceberg</code></td>
+    <td>The blog highlights how an AI-powered data lakehouse unifies analytics and AI on one open, governed platform. By using open standards like Apache Iceberg, organizations can run BI, ML, and generative AI directly on their data across clouds without duplication</td>
+  </tr>
     <tr>
     <td><a href="https://dipankar-tnt.medium.com/apache-parquet-vs-newer-file-formats-btrblocks-fastlanes-lance-vortex-cdf02130182c" target="_blank">Apache Parquet vs. Newer File Formats (BtrBlocks, FastLanes, Lance, Vortex)</a></td>
     <td><code>Apache Parquet</code>,<code>Lance</code></td>
