@@ -130,6 +130,16 @@
     <td>The blog explains how Apache Arrow Flight enables high-performance columnar data transport, Arrow Flight SQL brings SQL access to that protocol, and Arrow Database Connectivity (ADBC) offers a unified API for Arrow-native database interactions, collectively reducing inefficiencies of legacy row-based protocols</td>
   </tr>
    <tr>
+    <td><a href="https://lancedb.com/blog/from-bi-to-ai-lance-and-iceberg/" target="_blank">From BI to AI: A Modern Lakehouse Stack with Lance and Iceberg</a></td>
+    <td><code>Apache Iceberg</code>, <code>Lance</code></td>
+    <td>Iceberg powers reliable BI and analytics, while Lance is built for fast AI/ML and vector workloads—together they form a complementary lakehouse stack from BI to AI using Apache Iceberg and LanceDB. This blog goes all over this.</td>
+  </tr>
+   <tr>
+    <td><a href="https://ducklake.select/2025/05/27/ducklake-01/" target="_blank">DuckLake: SQL as a Lakehouse Format</a></td>
+    <td><code>DuckLake</code></td>
+    <td>Introductory blog on how DuckLake simplifies lakehouses by using a standard SQL database for all metadata, instead of complex file-based systems, while still storing data in open formats like Parquet.</td>
+  </tr>
+   <tr>
     <td><a href="https://www.onehouse.ai/blog/towards-open-data---part-1-cloud-warehouses-now-love-open-formats" target="_blank">Towards Open Data - Part 1: Cloud Warehouses Now Love Open Formats</a></td>
     <td><code>Apache Hudi</code>, <code>Apache Iceberg</code>, <code>Delta Lake</code>, <code>Snowflake</code>, <code>Redshift</code>, <code>BigQuery</code></td>
     <td>This blog highlights that cloud data warehouses like Snowflake, Redshift, and BigQuery have recently begun supporting open table formats (Iceberg, Hudi, Delta) via external tables and managed offerings—but current implementations remain far from fully “open.”.</td>
