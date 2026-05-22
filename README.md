@@ -109,6 +109,11 @@
     <th>Tags</th>
     <th>Quick Summary</th>
   </tr>
+   <tr>
+    <td><a href="https://community.cloudera.com/t5/Developer-Blogs/The-Architecture-of-Apache-Polaris-Under-the-Hood/ba-p/414066" target="_blank">The Architecture of Apache Polaris - Under the Hood</a></td>
+    <td><code>Apache Iceberg</code>, <code>Apache Polaris</code></td>
+    <td>Understand Apache Polaris Internals from a Systems Design Perspective.</td>
+  </tr>
   <tr>
     <td><a href="https://community.cloudera.com/t5/Developer-Blogs/Apache-Iceberg-Key-Innovations-So-Far-and-What-s-Next-for/ba-p/413024" target="_blank">Apache Iceberg: Key Innovations So Far and What’s Next for Developers in V4?</a></td>
     <td><code>Apache Iceberg</code></td>
