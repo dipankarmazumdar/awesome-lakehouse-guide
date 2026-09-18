@@ -11,7 +11,6 @@ Browse first by resource type, then by topic:
 - [Research papers](#research-papers)
 - [Blogs](#blogs)
 - [Code and notebooks](#code-and-notebooks)
-- [LinkedIn posts](#linkedin-posts)
 
 ## Research papers
 
@@ -131,10 +130,3 @@ Browse first by resource type, then by topic:
 | --- | --- |
 | [Creating Iceberg Tables on Amazon S3 using Spark.](https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/Spark_iceberg.ipynb) | `Apache Iceberg` |
 | [Implementing CDC use cases in Apache Iceberg.](https://github.com/dipankarmazumdar/Iceberg_Usecases/blob/main/notebooks/CDC_iceberg.ipynb) | `Apache Iceberg` |
-
-## LinkedIn posts
-
-<!-- LINKEDIN_POSTS_START -->
-- [What is Apache Arrow? Origins + Design](https://www.linkedin.com/posts/dipankar-mazumdar_parquet-dataengineering-softwareengineering-activity-7339094877005086720-mI5f)
-- [What is 'Vectorized Processing'?](https://www.linkedin.com/posts/dipankar-mazumdar_dataengineering-softwareengineering-activity-7340906100742836225-8fH2)
-<!-- LINKEDIN_POSTS_END -->
