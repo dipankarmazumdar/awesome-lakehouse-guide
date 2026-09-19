@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="A curated guide to open table formats and the modern data lakehouse architecture."
+  >
+  <meta name="theme-color" content="#f4f7f6">
+  <meta property="og:title" content="Awesome Lakehouse Guide">
+  <meta
+    property="og:description"
+    content="Research, field guides, books, and code for the open lakehouse."
+  >
+  <meta property="og:type" content="website">
+  <meta
+    property="og:url"
+    content="https://dipankarmazumdar.github.io/awesome-lakehouse-guide/"
+  >
+  <title>Awesome Lakehouse Guide</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<div class="page-shell">
+  <a class="skip-link" href="#resources">Skip to resources</a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Awesome Lakehouse Guide home">
+      <span class="brand-mark" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span>Awesome Lakehouse Guide</span>
+    </a>
+
+    <nav class="header-actions" aria-label="Site actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">
+        <span class="theme-icon" aria-hidden="true"></span>
+        <span class="theme-label">Theme</span>
+      </button>
+      <a
+        class="github-link"
+        href="https://github.com/dipankarmazumdar/awesome-lakehouse-guide"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+        <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A curated map of the open data stack</p>
+        <h1 id="hero-title">Understand the systems behind the modern lakehouse.</h1>
+        <p class="hero-description">
+          Research, field guides, books, and hands-on code for open table formats,
+          storage, compute, catalogs, streaming, and AI.
+        </p>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="lake-layer layer-one"><span>Compute</span></div>
+        <div class="lake-layer layer-two"><span>Table formats</span></div>
+        <div class="lake-layer layer-three"><span>Open storage</span></div>
+      </div>
+
+      <dl class="stats" id="stats" aria-label="Guide statistics"></dl>
+    </section>
+
+    <section class="directory" aria-labelledby="directory-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Resource directory</p>
+          <h2 id="directory-title">Find your next deep dive</h2>
+        </div>
+        <p>Search every summary, or narrow the guide by format and topic.</p>
+      </div>
+
+      <div class="filter-panel">
+        <label class="search-field" for="search">
+          <span class="search-icon" aria-hidden="true"></span>
+          <span class="sr-only">Search resources</span>
+          <input
+            id="search"
+            type="search"
+            autocomplete="off"
+            placeholder="Search Iceberg, streaming, metadata…"
+          >
+          <kbd aria-hidden="true">/</kbd>
+        </label>
+
+        <div class="type-filters" id="type-filters" aria-label="Filter by resource type"></div>
+
+        <div class="select-filters">
+          <label>
+            <span>Topic</span>
+            <select id="topic-filter">
+              <option value="all">All topics</option>
+            </select>
+          </label>
+          <label>
+            <span>Technology</span>
+            <select id="tag-filter">
+              <option value="all">All technologies</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="results-bar">
+        <p id="result-count" role="status" aria-live="polite">Loading resources…</p>
+        <button id="clear-filters" class="clear-button" type="button" hidden>Clear filters</button>
+      </div>
+
+      <div class="resource-grid" id="resources" aria-busy="true"></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <span aria-hidden="true">⌁</span>
+        <h3>No matching resources</h3>
+        <p>Try a broader search or clear the active filters.</p>
+        <button class="primary-button" id="empty-clear" type="button">Clear filters</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Curated by Dipankar Mazumdar for the open lakehouse community.</p>
+    <a
+      href="https://github.com/dipankarmazumdar/awesome-lakehouse-guide"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Suggest a resource <span aria-hidden="true">↗</span>
+    </a>
+  </footer>
+</div>
+
+<script type="module" src="./assets/app.js"></script>
+</body>
+</html>
