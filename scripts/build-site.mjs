@@ -179,6 +179,19 @@ if (!checkOnly) {
     copyFile(join(sitePath, "index.html"), join(outputPath, "index.html")),
     copyFile(join(sitePath, "styles.css"), join(outputPath, "assets", "styles.css")),
     copyFile(join(sitePath, "app.js"), join(outputPath, "assets", "app.js")),
+    copyFile(
+      join(sitePath, "assets", "apache-iceberg.png"),
+      join(outputPath, "assets", "apache-iceberg.png"),
+    ),
+    copyFile(
+      join(sitePath, "assets", "delta-lake.png"),
+      join(outputPath, "assets", "delta-lake.png"),
+    ),
+    copyFile(
+      join(sitePath, "assets", "apache-hudi.png"),
+      join(outputPath, "assets", "apache-hudi.png"),
+    ),
+    copyFile(join(sitePath, "assets", "lance.png"), join(outputPath, "assets", "lance.png")),
     copyFile(join(root, "lkh_res.png"), join(outputPath, "assets", "lakehouse-architecture.png")),
     writeFile(join(outputPath, "resources.json"), `${JSON.stringify(resources, null, 2)}\n`),
     writeFile(join(outputPath, ".nojekyll"), ""),

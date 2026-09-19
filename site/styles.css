@@ -358,6 +358,75 @@ h1 {
   width: 78%;
 }
 
+.ecosystem {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 28px;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+
+.ecosystem > p {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.ecosystem-logos {
+  display: grid;
+  flex: 1;
+  gap: 8px;
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
+  margin: 0;
+  max-width: 600px;
+  padding: 0;
+}
+
+.ecosystem-logos li {
+  align-items: center;
+  background: #f8fbfa;
+  border: 1px solid rgba(16, 35, 31, 0.1);
+  border-radius: 11px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  list-style: none;
+  padding: 7px 13px;
+}
+
+.ecosystem-logos img {
+  display: block;
+  height: auto;
+  max-height: 35px;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.ecosystem-logos .logo-iceberg {
+  height: 34px;
+  width: 34px;
+}
+
+.ecosystem-logos .logo-delta {
+  height: 34px;
+  width: 34px;
+}
+
+.ecosystem-logos .logo-hudi {
+  max-width: 76px;
+}
+
+.ecosystem-logos .logo-lance {
+  max-width: 92px;
+}
+
 .stats {
   border-top: 1px solid var(--line);
   display: grid;
@@ -835,6 +904,27 @@ footer a {
 
   .hero-visual {
     display: none;
+  }
+
+  .ecosystem {
+    align-items: stretch;
+    display: block;
+    margin-top: 28px;
+    padding-top: 20px;
+  }
+
+  .ecosystem > p {
+    margin-bottom: 10px;
+  }
+
+  .ecosystem-logos {
+    gap: 7px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: none;
+  }
+
+  .ecosystem-logos li {
+    height: 48px;
   }
 
   .stats {
